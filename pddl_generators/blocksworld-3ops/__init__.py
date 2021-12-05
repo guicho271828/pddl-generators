@@ -32,7 +32,7 @@ domain_file = rel("domain.pddl")
 parser = argparse.ArgumentParser(
     formatter_class = argparse.RawDescriptionHelpFormatter,
     # use this to read an existing README file
-    description = pathlib.Path(rel("../__blocksworld/README")).read_text(),
+    description = pathlib.Path(rel("README")).read_text(),
 )
 
 

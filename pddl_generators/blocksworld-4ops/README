@@ -1,0 +1,10 @@
+## Blocksworld-4ops
+
+*   Origin: See above. Used in the AIPS-2000 competition. Taken from the
+    [IPP][6] domain collection.
+*   Adaptions: None.
+*   Description: Like above, but uses a robot arm that can be used for
+    stacking a block onto a block, unstacking a block from a block,
+    putting down a block, or picking up a block.
+*   Parameters: Number of blocks.
+*   Generation: Like above.
