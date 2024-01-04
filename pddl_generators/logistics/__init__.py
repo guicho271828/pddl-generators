@@ -43,6 +43,7 @@ parser.add_argument("t", type=int, help="number of trucks (optional, default and
 # parser.add_argument("-r", type=int, help="random seed (minimal 1, optional)")
 
 def main(args : argparse.Namespace, args2 : argparse.Namespace):
+    assert args2.t >= args2.c, RuntimeError(f"[number of trucks]={args2.t} >= [number of cities]={args2.c} ")
 
     with open(args.output, mode="w") as f:
         run(args,list(map(str,[rel("logistics"),
